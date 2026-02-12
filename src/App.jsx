@@ -13,8 +13,8 @@ function App() {
   return (
     <div>
       <p>{select}</p>
-      {/* <ChangeFilter setFilter={setFilter} mood={"attacksCount"} /> */}
-      {/* <ChangeFilter setFilter={setFilter} mood={"name"} /> */}
+      <ChangeFilter setFilter={setFilter} mood={"attacksCount"} />
+      <ChangeFilter setFilter={setFilter} mood={"name"} />
       <SelectStatus setselect={setselect} select={select} setData={setData} terrorists={terrorists}/>
       <Search terrorists={terrorists} filter={filter} />
     </div>

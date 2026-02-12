@@ -9,6 +9,8 @@ function SelectStatus(props) {
                     t.status == select
                 })
                 props.setData(() => [t])
+                console.log(props.terrorists);
+
             }}>
                 <option value="Active">Active</option>
                 <option value="Quiet">Quiet</option>
